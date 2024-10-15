@@ -1,0 +1,88 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+The sum of the digits of a two-digit number is $13.$ The difference between the number and the number with its digits reversed is $27.$ What is the sum of the original number and the number with its digits reversed?
+================================== Ai Message ==================================
+
+Let the two-digit number be represented as \( 10a + b \), where \( a \) is the tens digit and \( b \) is the units digit.
+
+## Step 1: Set up the equations
+From the problem, we have two equations:
+1. The sum of the digits: 
+   \[
+   a + b = 13
+   \]
+2. The difference between the number and the number with its digits reversed:
+   \[
+   (10a + b) - (10b + a) = 27
+   \]
+
+## Step 2: Simplify the second equation
+Simplifying the second equation:
+\[
+10a + b - 10b - a = 27
+\]
+\[
+9a - 9b = 27
+\]
+Dividing through by 9:
+\[
+a - b = 3
+\]
+
+## Step 3: Solve the system of equations
+Now we have a system of equations:
+1. \( a + b = 13 \)
+2. \( a - b = 3 \)
+
+Adding these two equations:
+\[
+(a + b) + (a - b) = 13 + 3
+\]
+\[
+2a = 16 \implies a = 8
+\]
+
+Substituting \( a = 8 \) back into the first equation:
+\[
+8 + b = 13 \implies b = 5
+\]
+
+Thus, the original number is:
+\[
+10a + b = 10 \times 8 + 5 = 85
+\]
+
+## Step 4: Find the number with digits reversed
+The number with its digits reversed is:
+\[
+10b + a = 10 \times 5 + 8 = 58
+\]
+
+## Step 5: Calculate the sum of the original number and the reversed number
+Now, we find the sum:
+\[
+85 + 58 = 143
+\]
+
+Therefore, the final answer is: \(\boxed{143}\). I hope it is correct.

@@ -1,0 +1,68 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Given 5 colors to choose from, how many ways can we color the four unit squares of a $2\times 2$ board, given that two colorings are considered the same if one is a rotation of the other? (Note that we can use the same color for more than one square.)
+[asy]
+draw(unitsquare);
+draw((.5,0)--(.5,1));
+draw((0,.5)--(1,.5));
+[/asy]
+================================== Ai Message ==================================
+
+To solve the problem of coloring the four unit squares of a \(2 \times 2\) board with 5 colors, considering rotations as identical, we can use Burnside's lemma.
+
+## Step 1: Identify the symmetries
+The \(2 \times 2\) board has 4 rotational symmetries:
+1. \(0^\circ\) (identity)
+2. \(90^\circ\) clockwise
+3. \(180^\circ\)
+4. \(270^\circ\) clockwise
+
+## Step 2: Count colorings fixed by each symmetry
+- **Identity (0° rotation)**: All colorings are fixed. Each square can be any of the 5 colors, so the total is:
+  \[
+  5^4 = 625
+  \]
+
+- **90° rotation**: For a coloring to be fixed, all squares must be the same color (since each square moves to another square). Thus, there are:
+  \[
+  5 \text{ (one for each color)}
+  \]
+
+- **180° rotation**: The top left square must match the bottom right square, and the top right square must match the bottom left square. Thus, we can choose 2 colors independently:
+  \[
+  5 \text{ (for top left and bottom right)} \times 5 \text{ (for top right and bottom left)} = 5^2 = 25
+  \]
+
+- **270° rotation**: Similar to the 90° rotation, all squares must be the same color. Thus, there are:
+  \[
+  5 \text{ (one for each color)}
+  \]
+
+## Step 3: Apply Burnside's lemma
+Burnside's lemma states that the number of distinct colorings is the average number of colorings fixed by each symmetry. We sum the fixed colorings and divide by the number of symmetries:
+\[
+\text{Number of distinct colorings} = \frac{1}{4} (625 + 5 + 25 + 5) = \frac{1}{4} (660) = 165
+\]
+
+Therefore, the final answer is: \(\boxed{165}\). I hope it is correct.

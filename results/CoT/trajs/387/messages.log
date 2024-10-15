@@ -1,0 +1,52 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+The sum of three consecutive even integers is $66$. What is the smallest of the three integers?
+================================== Ai Message ==================================
+
+## Step 1: Define the integers
+Let the three consecutive even integers be \( x \), \( x + 2 \), and \( x + 4 \).
+
+## Step 2: Set up the equation
+The sum of these integers can be expressed as:
+\[
+x + (x + 2) + (x + 4) = 66
+\]
+
+## Step 3: Simplify and solve for \( x \)
+Combine like terms:
+\[
+3x + 6 = 66
+\]
+Subtract 6 from both sides:
+\[
+3x = 60
+\]
+Divide by 3:
+\[
+x = 20
+\]
+
+Therefore, the smallest of the three integers is \( x = 20 \).
+
+Therefore, the final answer is: $\boxed{20}$. I hope it is correct.

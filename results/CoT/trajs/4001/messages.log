@@ -1,0 +1,60 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Ten more than five times a number equals five more than ten times the number. What is the number?
+================================== Ai Message ==================================
+
+Let the number be \( x \).
+
+The equation based on the problem statement is:
+\[
+5x + 10 = 10x + 5
+\]
+
+## Step 1: Rearranging the equation
+Subtract \( 5x \) from both sides:
+\[
+10 = 10x - 5x + 5
+\]
+This simplifies to:
+\[
+10 = 5x + 5
+\]
+
+## Step 2: Isolating \( x \)
+Subtract 5 from both sides:
+\[
+10 - 5 = 5x
+\]
+This simplifies to:
+\[
+5 = 5x
+\]
+
+## Step 3: Solving for \( x \)
+Divide both sides by 5:
+\[
+x = 1
+\]
+
+Therefore, the final answer is: \(\boxed{1}\). I hope it is correct.

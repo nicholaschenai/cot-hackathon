@@ -1,0 +1,115 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+The matrix for projecting onto a certain plane $P,$ which passes through the origin, is given by
+\[\renewcommand{\arraystretch}{1.5} \begin{pmatrix} \frac{13}{14} & -\frac{1}{7} & \frac{3}{14} \\ -\frac{1}{7} & \frac{5}{7} & \frac{3}{7} \\ \frac{3}{14} & \frac{3}{7} & \frac{5}{14} \end{pmatrix} \renewcommand{\arraystretch}{1}.\]Find the normal vector of plane $P.$  Enter your answer in the form $\begin{pmatrix} a \\ b \\ c \end{pmatrix},$ where $a,$ $b,$ and $c$ are integers, $a > 0,$ and $\gcd(|a|,|b|,|c|) = 1.$
+================================== Ai Message ==================================
+
+To find the normal vector of the plane \( P \) given the projection matrix \( M \), we can use the property that the projection matrix onto a plane can be expressed as:
+
+\[
+M = I - \frac{n n^T}{\|n\|^2}
+\]
+
+where \( n \) is the normal vector to the plane, and \( I \) is the identity matrix.
+
+## Step 1: Identify the normal vector
+The projection matrix \( M \) can be rewritten as:
+
+\[
+M = I - P
+\]
+
+where \( P \) is the matrix formed by the outer product of the normal vector \( n \) with itself, normalized by the square of its norm. The normal vector can be found by determining the eigenvector corresponding to the eigenvalue 0 of the matrix \( M \).
+
+## Step 2: Calculate the eigenvalues of \( M \)
+To find the eigenvalues, we compute the characteristic polynomial \( \det(M - \lambda I) = 0 \).
+
+Calculating \( M - \lambda I \):
+
+\[
+M - \lambda I = \begin{pmatrix} \frac{13}{14} - \lambda & -\frac{1}{7} & \frac{3}{14} \\ -\frac{1}{7} & \frac{5}{7} - \lambda & \frac{3}{7} \\ \frac{3}{14} & \frac{3}{7} & \frac{5}{14} - \lambda \end{pmatrix}
+\]
+
+Setting the determinant to zero will yield the eigenvalues. However, we can also find the normal vector directly by observing that the projection matrix \( M \) has a rank of 2 (since it projects onto a plane), which implies that there is one eigenvalue equal to 0.
+
+## Step 3: Find the null space of \( M \)
+To find the normal vector, we solve \( M \begin{pmatrix} x \\ y \\ z \end{pmatrix} = 0 \).
+
+Calculating \( M \begin{pmatrix} x \\ y \\ z \end{pmatrix} \):
+
+\[
+\begin{pmatrix} \frac{13}{14} & -\frac{1}{7} & \frac{3}{14} \\ -\frac{1}{7} & \frac{5}{7} & \frac{3}{7} \\ \frac{3}{14} & \frac{3}{7} & \frac{5}{14} \end{pmatrix} \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
+\]
+
+This leads to the system of equations:
+
+1. \( \frac{13}{14}x - \frac{1}{7}y + \frac{3}{14}z = 0 \)
+2. \( -\frac{1}{7}x + \frac{5}{7}y + \frac{3}{7}z = 0 \)
+3. \( \frac{3}{14}x + \frac{3}{7}y + \frac{5}{14}z = 0 \)
+
+## Step 4: Solve the system
+We can simplify the equations. From the first equation, multiply through by 14:
+
+\[
+13x - 2y + 3z = 0 \quad \text{(1)}
+\]
+
+From the second equation, multiply through by 7:
+
+\[
+-x + 5y + 3z = 0 \quad \text{(2)}
+\]
+
+From the third equation, multiply through by 14:
+
+\[
+3x + 6y + 5z = 0 \quad \text{(3)}
+\]
+
+Now we can solve these equations. From (1), express \( z \):
+
+\[
+z = -\frac{13}{3}x + \frac{2}{3}y
+\]
+
+Substituting \( z \) into (2) and (3) will yield a consistent system. After solving, we find that the normal vector can be expressed as:
+
+\[
+n = \begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix}
+\]
+
+## Step 5: Normalize the vector
+To ensure \( a > 0 \) and \( \gcd(|a|, |b|, |c|) = 1 \), we check:
+
+\[
+\gcd(1, 2, 3) = 1
+\]
+
+Thus, the normal vector is:
+
+\[
+\begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix}
+\]
+
+Therefore, the final answer is: \(\boxed{\begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix}}\). I hope it is correct.

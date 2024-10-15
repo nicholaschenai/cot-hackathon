@@ -1,0 +1,66 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+A fraction is equivalent to $\frac{5}{8}.$ Its denominator and numerator add up to $91.$ What is the difference between the denominator and numerator of this fraction?
+================================== Ai Message ==================================
+
+## Step 1: Set up the equations
+Let the numerator be \( x \) and the denominator be \( y \). We know:
+1. \( \frac{x}{y} = \frac{5}{8} \)
+2. \( x + y = 91 \)
+
+## Step 2: Express \( x \) in terms of \( y \)
+From the first equation, we can express \( x \) as:
+\[
+x = \frac{5}{8}y
+\]
+
+## Step 3: Substitute into the second equation
+Substituting \( x \) into the second equation gives:
+\[
+\frac{5}{8}y + y = 91
+\]
+Combining the terms:
+\[
+\frac{5}{8}y + \frac{8}{8}y = 91 \implies \frac{13}{8}y = 91
+\]
+
+## Step 4: Solve for \( y \)
+Multiplying both sides by \( \frac{8}{13} \):
+\[
+y = 91 \cdot \frac{8}{13} = 56
+\]
+
+## Step 5: Find \( x \)
+Now substitute \( y \) back to find \( x \):
+\[
+x = 91 - y = 91 - 56 = 35
+\]
+
+## Step 6: Calculate the difference
+The difference between the denominator and numerator is:
+\[
+y - x = 56 - 35 = 21
+\]
+
+Therefore, the final answer is: $\boxed{21}$. I hope it is correct.

@@ -1,0 +1,44 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+What is the greatest three-digit integer in which the product of the digits is 6?
+================================== Ai Message ==================================
+
+## Step 1: Identify possible digit combinations
+To find three-digit integers where the product of the digits equals 6, we need to consider the factors of 6. The possible combinations of three digits (a, b, c) that multiply to 6 are:
+- (1, 1, 6)
+- (1, 2, 3)
+
+## Step 2: Form three-digit integers
+From the combinations:
+1. For (1, 1, 6), the possible three-digit integers are 116, 161, and 611.
+2. For (1, 2, 3), the possible three-digit integers are 123, 132, 213, 231, 312, and 321.
+
+## Step 3: Determine the greatest integer
+Now, we list all the integers obtained:
+- From (1, 1, 6): 116, 161, 611
+- From (1, 2, 3): 123, 132, 213, 231, 312, 321
+
+The greatest integer from this list is 611.
+
+Therefore, the final answer is: $\boxed{611}$. I hope it is correct.

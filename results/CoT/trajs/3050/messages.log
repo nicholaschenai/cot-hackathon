@@ -1,0 +1,145 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+The greatest common divisor of two positive integers less than $100$ is equal to $3$. Their least common multiple is twelve times one of the integers. What is the largest possible sum of the two integers?
+================================== Ai Message ==================================
+
+Let the two integers be \( a \) and \( b \). Given that \( \gcd(a, b) = 3 \), we can express \( a \) and \( b \) as:
+
+\[
+a = 3m \quad \text{and} \quad b = 3n
+\]
+
+where \( m \) and \( n \) are coprime integers (i.e., \( \gcd(m, n) = 1 \)). The least common multiple of \( a \) and \( b \) can be expressed as:
+
+\[
+\text{lcm}(a, b) = \frac{a \cdot b}{\gcd(a, b)} = \frac{(3m)(3n)}{3} = 3mn
+\]
+
+According to the problem, the least common multiple is also twelve times one of the integers. We will consider both cases: \( \text{lcm}(a, b) = 12a \) and \( \text{lcm}(a, b) = 12b \).
+
+### Case 1: \( \text{lcm}(a, b) = 12a \)
+
+Substituting for \( \text{lcm}(a, b) \):
+
+\[
+3mn = 12a = 12(3m) = 36m
+\]
+
+Dividing both sides by \( 3m \) (assuming \( m \neq 0 \)) gives:
+
+\[
+n = 12
+\]
+
+Thus, we have:
+
+\[
+b = 3n = 3 \times 12 = 36
+\]
+
+Now, we need to find \( a \):
+
+\[
+a = 3m
+\]
+
+Since both \( a \) and \( b \) must be less than 100, we have:
+
+\[
+3m < 100 \implies m < \frac{100}{3} \approx 33.33 \implies m \leq 33
+\]
+
+Since \( m \) and \( n \) are coprime and \( n = 12 \), the possible values for \( m \) are those that are coprime to \( 12 \). The integers less than or equal to \( 33 \) that are coprime to \( 12 \) are \( 1, 5, 7, 11, 13, 17, 19, 23, 25, 29, 31 \).
+
+Calculating \( a \) for these values:
+
+- \( m = 1 \): \( a = 3 \times 1 = 3 \) → \( a + b = 3 + 36 = 39 \)
+- \( m = 5 \): \( a = 3 \times 5 = 15 \) → \( a + b = 15 + 36 = 51 \)
+- \( m = 7 \): \( a = 3 \times 7 = 21 \) → \( a + b = 21 + 36 = 57 \)
+- \( m = 11 \): \( a = 3 \times 11 = 33 \) → \( a + b = 33 + 36 = 69 \)
+- \( m = 13 \): \( a = 3 \times 13 = 39 \) → \( a + b = 39 + 36 = 75 \)
+- \( m = 17 \): \( a = 3 \times 17 = 51 \) → \( a + b = 51 + 36 = 87 \)
+- \( m = 19 \): \( a = 3 \times 19 = 57 \) → \( a + b = 57 + 36 = 93 \)
+- \( m = 23 \): \( a = 3 \times 23 = 69 \) → \( a + b = 69 + 36 = 105 \) (not valid)
+- \( m = 25 \): \( a = 3 \times 25 = 75 \) → \( a + b = 75 + 36 = 111 \) (not valid)
+- \( m = 29 \): \( a = 3 \times 29 = 87 \) → \( a + b = 87 + 36 = 123 \) (not valid)
+- \( m = 31 \): \( a = 3 \times 31 = 93 \) → \( a + b = 93 + 36 = 129 \) (not valid)
+
+The maximum valid sum from this case is \( 93 \).
+
+### Case 2: \( \text{lcm}(a, b) = 12b \)
+
+Following similar steps, we have:
+
+\[
+3mn = 12b = 12(3n) = 36n
+\]
+
+Dividing both sides by \( 3n \) (assuming \( n \neq 0 \)) gives:
+
+\[
+m = 12
+\]
+
+Thus, we have:
+
+\[
+a = 3m = 3 \times 12 = 36
+\]
+
+Now, we need to find \( b \):
+
+\[
+b = 3n
+\]
+
+Since both \( a \) and \( b \) must be less than 100, we have:
+
+\[
+3n < 100 \implies n < \frac{100}{3} \approx 33.33 \implies n \leq 33
+\]
+
+Since \( m = 12 \) and \( n \) must be coprime to \( 12 \), the possible values for \( n \) are \( 1, 5, 7, 11, 13, 17, 19, 23, 25, 29, 31 \).
+
+Calculating \( b \) for these values:
+
+- \( n = 1 \): \( b = 3 \times 1 = 3 \) → \( a + b = 36 + 3 = 39 \)
+- \( n = 5 \): \( b = 3 \times 5 = 15 \) → \( a + b = 36 + 15 = 51 \)
+- \( n = 7 \): \( b = 3 \times 7 = 21 \) → \( a + b = 36 + 21 = 57 \)
+- \( n = 11 \): \( b = 3 \times 11 = 33 \) → \( a + b = 36 + 33 = 69 \)
+- \( n = 13 \): \( b = 3 \times 13 = 39 \) → \( a + b = 36 + 39 = 75 \)
+- \( n = 17 \): \( b = 3 \times 17 = 51 \) → \( a + b = 36 + 51 = 87 \)
+- \( n = 19 \): \( b = 3 \times 19 = 57 \) → \( a + b = 36 + 57 = 93 \)
+- \( n = 23 \): \( b = 3 \times 23 = 69 \) → \( a + b = 36 + 69 = 105 \) (not valid)
+- \( n = 25 \): \( b = 3 \times 25 = 75 \) → \( a + b = 36 + 75 = 111 \) (not valid)
+- \( n = 29 \): \( b = 3 \times 29 = 87 \) → \( a + b = 36 + 87 = 123 \) (not valid)
+- \( n = 31 \): \( b = 3 \times 31 = 93 \) → \( a + b = 36 + 93 = 129 \) (not valid)
+
+The maximum valid sum from this case is also \( 93 \).
+
+### Conclusion
+
+The largest possible sum of the two integers is:
+
+Therefore, the final answer is: \(\boxed{93}\). I hope it is correct.

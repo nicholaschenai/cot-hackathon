@@ -1,0 +1,117 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Find all the integer roots of
+\[2x^3 + 13x^2 - 23x + 8 = 0.\]Enter all the integer roots, separated by commas.
+================================== Ai Message ==================================
+
+To find the integer roots of the polynomial \(2x^3 + 13x^2 - 23x + 8 = 0\), we can use the Rational Root Theorem. This theorem suggests that any potential rational root, in this case integer roots, must be a factor of the constant term divided by a factor of the leading coefficient.
+
+## Step 1: Identify potential integer roots
+The constant term is \(8\) and the leading coefficient is \(2\). The factors of \(8\) are \(\pm 1, \pm 2, \pm 4, \pm 8\) and the factors of \(2\) are \(\pm 1, \pm 2\). Therefore, the possible integer roots are:
+\[
+\pm 1, \pm 2, \pm 4, \pm 8
+\]
+
+## Step 2: Test the potential roots
+We will substitute each potential root into the polynomial to see if it equals zero.
+
+1. For \(x = 1\):
+   \[
+   2(1)^3 + 13(1)^2 - 23(1) + 8 = 2 + 13 - 23 + 8 = 0
+   \]
+   So, \(x = 1\) is a root.
+
+2. For \(x = -1\):
+   \[
+   2(-1)^3 + 13(-1)^2 - 23(-1) + 8 = -2 + 13 + 23 + 8 = 42 \quad (\text{not a root})
+   \]
+
+3. For \(x = 2\):
+   \[
+   2(2)^3 + 13(2)^2 - 23(2) + 8 = 16 + 52 - 46 + 8 = 30 \quad (\text{not a root})
+   \]
+
+4. For \(x = -2\):
+   \[
+   2(-2)^3 + 13(-2)^2 - 23(-2) + 8 = -16 + 52 + 46 + 8 = 90 \quad (\text{not a root})
+   \]
+
+5. For \(x = 4\):
+   \[
+   2(4)^3 + 13(4)^2 - 23(4) + 8 = 128 + 208 - 92 + 8 = 252 \quad (\text{not a root})
+   \]
+
+6. For \(x = -4\):
+   \[
+   2(-4)^3 + 13(-4)^2 - 23(-4) + 8 = -128 + 208 + 92 + 8 = 180 \quad (\text{not a root})
+   \]
+
+7. For \(x = 8\):
+   \[
+   2(8)^3 + 13(8)^2 - 23(8) + 8 = 1024 + 832 - 184 + 8 = 1680 \quad (\text{not a root})
+   \]
+
+8. For \(x = -8\):
+   \[
+   2(-8)^3 + 13(-8)^2 - 23(-8) + 8 = -1024 + 832 + 184 + 8 = -0 \quad (\text{not a root})
+   \]
+
+## Step 3: Factor the polynomial
+Since we found \(x = 1\) as a root, we can perform synthetic division of \(2x^3 + 13x^2 - 23x + 8\) by \(x - 1\).
+
+Performing synthetic division:
+\[
+\begin{array}{r|rrrr}
+1 & 2 & 13 & -23 & 8 \\
+  &   & 2  & 15  & -8 \\
+\hline
+  & 2 & 15 & -8 & 0 \\
+\end{array}
+\]
+This gives us \(2x^2 + 15x - 8\).
+
+## Step 4: Find the roots of the quadratic
+Now we can solve \(2x^2 + 15x - 8 = 0\) using the quadratic formula:
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{-15 \pm \sqrt{15^2 - 4 \cdot 2 \cdot (-8)}}{2 \cdot 2}
+\]
+Calculating the discriminant:
+\[
+15^2 - 4 \cdot 2 \cdot (-8) = 225 + 64 = 289
+\]
+Thus,
+\[
+x = \frac{-15 \pm 17}{4}
+\]
+Calculating the two possible values:
+1. \(x = \frac{2}{4} = \frac{1}{2}\) (not an integer)
+2. \(x = \frac{-32}{4} = -8\) (integer)
+
+## Conclusion
+The integer roots of the polynomial \(2x^3 + 13x^2 - 23x + 8 = 0\) are:
+\[
+1, -8
+\]
+
+Therefore, the final answer is: \(\boxed{1, -8}\). I hope it is correct.

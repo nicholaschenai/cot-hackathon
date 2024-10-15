@@ -1,0 +1,46 @@
+================================ System Message ================================
+
+
+## Instruction
+You will be given a math problem.
+
+Do not solve the problem in one go. Rather, solve it step by step.
+Your next reply should either be a new step, or a conclusion that solves the entire problem.
+
+For each step, first write down your thoughts from the previous observation, 
+then use the `sympy_execute` tool to execute sympy code.
+
+When you are done, conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+================================ Human Message =================================
+
+Compute $\sin 90^\circ$.
+================================== Ai Message ==================================
+
+To compute \(\sin 90^\circ\), I recall that the sine function gives the ratio of the length of the opposite side to the hypotenuse in a right triangle. At \(90^\circ\), the opposite side is equal to the hypotenuse, which means that \(\sin 90^\circ\) should equal 1.
+
+Now, I will confirm this using the sympy library. 
+
+Let's execute the code to find \(\sin 90^\circ\).
+Tool Calls:
+  sympy_execute (call_A5ukXTzCZD4R1ORYz9ioSOkv)
+ Call ID: call_A5ukXTzCZD4R1ORYz9ioSOkv
+  Args:
+    code: import sympy as sp; sp.sin(sp.rad(90))
+================================= Tool Message =================================
+Name: sympy_execute
+
+Executing code:
+
+sp.sin(sp.rad(90))
+
+Result: 1
+================================== Ai Message ==================================
+
+The calculation confirms that \(\sin 90^\circ = 1\).
+
+Therefore, the final answer is: \(\boxed{1}\). I hope it is correct.

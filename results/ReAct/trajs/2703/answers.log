@@ -1,0 +1,1 @@
+y_true: \frac{2}{5}, y_pred: \frac{17 + \sqrt{409}}{10}, \frac{17 - \sqrt{409}}{10}, is_correct: False

@@ -1,0 +1,130 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+In the coordinate plane, let $F = (4,0).$  Let $P$ be a point, and let $Q$ be the projection of the point $P$ onto the line $x = \frac{25}{4}.$  The point $P$ traces a curve in the plane, so that
+\[\frac{PF}{PQ} = \frac{4}{5}\]for all points $P$ on the curve.  Find the area of the region formed by the curve.
+
+[asy]
+unitsize(1 cm);
+
+pair P, F, Q;
+
+F = (4,0);
+P = (5*Cos(60),3*Sin(60));
+Q = (25/4,3*Sin(60));
+
+draw(F--P--Q);
+draw((25/4,-1)--(25/4,3),dashed);
+
+dot("$F$", F, S);
+dot("$P$", P, W);
+dot("$Q$", Q, E);
+
+label("$x = \frac{25}{4}$", (25/4,-1), S);
+[/asy]
+================================== Ai Message ==================================
+
+To solve the problem, we start by defining the points involved:
+
+- Let \( P = (x, y) \).
+- The point \( F = (4, 0) \).
+- The projection \( Q \) of point \( P \) onto the line \( x = \frac{25}{4} \) is given by \( Q = \left(\frac{25}{4}, y\right) \).
+
+Next, we need to express the distances \( PF \) and \( PQ \):
+
+## Step 1: Calculate distances
+The distance \( PF \) from \( P \) to \( F \) is calculated as:
+\[
+PF = \sqrt{(x - 4)^2 + (y - 0)^2} = \sqrt{(x - 4)^2 + y^2}
+\]
+
+The distance \( PQ \) from \( P \) to \( Q \) is:
+\[
+PQ = \sqrt{\left(x - \frac{25}{4}\right)^2 + (y - y)^2} = \left| x - \frac{25}{4} \right|
+\]
+
+## Step 2: Set up the ratio
+According to the problem, we have the ratio:
+\[
+\frac{PF}{PQ} = \frac{4}{5}
+\]
+Substituting the expressions for \( PF \) and \( PQ \):
+\[
+\frac{\sqrt{(x - 4)^2 + y^2}}{\left| x - \frac{25}{4} \right|} = \frac{4}{5}
+\]
+
+## Step 3: Cross-multiply and simplify
+Cross-multiplying gives:
+\[
+5\sqrt{(x - 4)^2 + y^2} = 4\left| x - \frac{25}{4} \right|
+\]
+Squaring both sides results in:
+\[
+25((x - 4)^2 + y^2) = 16\left(x - \frac{25}{4}\right)^2
+\]
+
+Expanding both sides:
+- Left side:
+\[
+25((x - 4)^2 + y^2) = 25(x^2 - 8x + 16 + y^2) = 25x^2 - 200x + 400 + 25y^2
+\]
+
+- Right side:
+\[
+16\left(x - \frac{25}{4}\right)^2 = 16\left(x^2 - \frac{50}{4}x + \frac{625}{16}\right) = 16x^2 - 200x + 625
+\]
+
+Setting both sides equal:
+\[
+25x^2 - 200x + 400 + 25y^2 = 16x^2 - 200x + 625
+\]
+
+## Step 4: Rearranging the equation
+Rearranging gives:
+\[
+(25x^2 - 16x^2) + 25y^2 + 400 - 625 = 0
+\]
+\[
+9x^2 + 25y^2 - 225 = 0
+\]
+Dividing through by 225:
+\[
+\frac{9x^2}{225} + \frac{25y^2}{225} = 1
+\]
+This simplifies to:
+\[
+\frac{x^2}{25} + \frac{y^2}{9} = 1
+\]
+
+## Step 5: Identify the shape and calculate the area
+This is the equation of an ellipse centered at the origin with semi-major axis \( a = 5 \) and semi-minor axis \( b = 3 \).
+
+The area \( A \) of an ellipse is given by:
+\[
+A = \pi \cdot a \cdot b = \pi \cdot 5 \cdot 3 = 15\pi
+\]
+
+Therefore, the final answer is: 
+\[
+\boxed{15\pi}
+\]

@@ -1,0 +1,43 @@
+================================ System Message ================================
+
+
+## Instruction
+You will be given a math problem.
+
+Do not solve the problem in one go. Rather, solve it step by step.
+Your next reply should either be a new step, or a conclusion that solves the entire problem.
+
+For each step, first write down your thoughts from the previous observation, 
+then use the `sympy_execute` tool to execute sympy code.
+
+When you are done, conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+================================ Human Message =================================
+
+Find $3.72\times 1000$.
+================================== Ai Message ==================================
+
+To solve the problem \(3.72 \times 1000\), I will first think about how multiplying by 1000 affects the decimal number. Multiplying by 1000 is equivalent to moving the decimal point three places to the right.
+
+Now, I will perform the multiplication using sympy to confirm the result.
+Tool Calls:
+  sympy_execute (call_3WvPO5IziKUznlCXnGX5Vfmu)
+ Call ID: call_3WvPO5IziKUznlCXnGX5Vfmu
+  Args:
+    code: 3.72 * 1000
+================================= Tool Message =================================
+Name: sympy_execute
+
+Executing code:
+3.72 * 1000
+
+Result: 3720.0
+================================== Ai Message ==================================
+
+After performing the multiplication, I found that \(3.72 \times 1000 = 3720.0\).
+
+Therefore, the final answer is: \(\boxed{3720}\). I hope it is correct.

@@ -1,0 +1,73 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+In the diagram, $PQ=PR$ and $\angle QRP = 65^\circ$.
+
+[asy]
+draw((0,0)--(cos(13pi/36),sin(13pi/36))--(2cos(13pi/36),0)--(0,0), linewidth(1));
+draw((0,0)--(sin(13pi/18)*cos(5pi/36),sin(13pi/18)*sin(5pi/36)), linewidth(1));
+draw(((15/16)*sin(13pi/18)*cos(5pi/36),(15/16)*sin(13pi/18)*sin(5pi/36))--((15/16)*sin(13pi/18)*cos(5pi/36)+(1/16)*sin(13pi/18)*sin(5pi/36),(15/16)*sin(13pi/18)*sin(5pi/36)-(1/16)*sin(13pi/18)*cos(5pi/36))--(sin(13pi/18)*cos(5pi/36)+(1/16)*sin(13pi/18)*sin(5pi/36),sin(13pi/18)*sin(5pi/36)-(1/16)*sin(13pi/18)*cos(5pi/36)), linewidth(1));
+label("$Q$", (0,0), SW);
+label("$R$", (2cos(13pi/36),0), SE);
+label("$S$", (sin(13pi/18)*cos(5pi/36),sin(13pi/18)*sin(5pi/36)), NE);
+label("$P$", (cos(13pi/36),sin(13pi/36)), N);
+label("$65^\circ$", (2cos(13pi/36)-0.04,0), NW);
+label("$x^\circ$", (0.05,0.11), E);
+[/asy]
+
+What is the value of $x?$
+================================== Ai Message ==================================
+
+## Step 1: Identify the angles in triangle \( PQR \)
+In triangle \( PQR \), we know that \( PQ = PR \) (isosceles triangle) and \( \angle QRP = 65^\circ \). Therefore, the angles \( \angle PQR \) and \( \angle PRQ \) are equal.
+
+Let \( \angle PQR = \angle PRQ = x \).
+
+## Step 2: Use the triangle angle sum property
+The sum of the angles in triangle \( PQR \) is \( 180^\circ \):
+\[
+\angle PQR + \angle PRQ + \angle QRP = 180^\circ
+\]
+Substituting the known values:
+\[
+x + x + 65^\circ = 180^\circ
+\]
+This simplifies to:
+\[
+2x + 65^\circ = 180^\circ
+\]
+
+## Step 3: Solve for \( x \)
+Subtract \( 65^\circ \) from both sides:
+\[
+2x = 180^\circ - 65^\circ
+\]
+\[
+2x = 115^\circ
+\]
+Now, divide by 2:
+\[
+x = \frac{115^\circ}{2} = 57.5^\circ
+\]
+
+Therefore, the final answer is: \(\boxed{57.5}\). I hope it is correct.

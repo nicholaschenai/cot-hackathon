@@ -1,0 +1,71 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+The graph of $y=ax^2+bx+c$ passes through points $(0,5)$, $(1,10)$, and $(2,19)$. Find $a+b+c$.
+================================== Ai Message ==================================
+
+## Step 1: Set up the equations
+Using the points given, we can create a system of equations based on the quadratic function \(y = ax^2 + bx + c\).
+
+1. For the point \((0, 5)\):
+   \[
+   c = 5
+   \]
+
+2. For the point \((1, 10)\):
+   \[
+   a(1)^2 + b(1) + c = 10 \implies a + b + 5 = 10 \implies a + b = 5
+   \]
+
+3. For the point \((2, 19)\):
+   \[
+   a(2)^2 + b(2) + c = 19 \implies 4a + 2b + 5 = 19 \implies 4a + 2b = 14 \implies 2a + b = 7
+   \]
+
+Now we have the following system of equations:
+1. \(a + b = 5\)
+2. \(2a + b = 7\)
+
+## Step 2: Solve the system of equations
+Subtract the first equation from the second:
+\[
+(2a + b) - (a + b) = 7 - 5 \implies a = 2
+\]
+
+Substituting \(a = 2\) back into the first equation:
+\[
+2 + b = 5 \implies b = 3
+\]
+
+## Step 3: Find \(a + b + c\)
+Now we have:
+- \(a = 2\)
+- \(b = 3\)
+- \(c = 5\)
+
+Calculating \(a + b + c\):
+\[
+a + b + c = 2 + 3 + 5 = 10
+\]
+
+Therefore, the final answer is: \(\boxed{10}\). I hope it is correct.

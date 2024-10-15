@@ -1,0 +1,46 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+What is the least perfect square with 3 different prime factors?
+================================== Ai Message ==================================
+
+## Step 1: Identify the smallest prime factors
+The smallest prime numbers are 2, 3, 5, and 7. We will use the first three primes: 2, 3, and 5.
+
+## Step 2: Form a perfect square
+To form a perfect square with three different prime factors, each prime must appear with an even exponent. The smallest perfect square with three different prime factors is \(2^2 \times 3^2 \times 5^2\).
+
+## Step 3: Calculate the perfect square
+Calculating this gives:
+\[
+2^2 = 4, \quad 3^2 = 9, \quad 5^2 = 25
+\]
+Now, multiply these together:
+\[
+4 \times 9 = 36
+\]
+\[
+36 \times 25 = 900
+\]
+
+Therefore, the final answer is: $\boxed{900}$. I hope it is correct.

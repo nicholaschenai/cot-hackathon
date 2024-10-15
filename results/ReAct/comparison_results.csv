@@ -1,0 +1,101 @@
+i,level,problem_type,index,is_correct
+0,Level 4,Counting & Probability,1535,False
+1,Level 4,Number Theory,3378,True
+2,Level 3,Prealgebra,3825,True
+3,Level 2,Algebra,643,True
+4,Level 3,Algebra,90,True
+5,Level 2,Intermediate Algebra,2835,True
+6,Level 1,Prealgebra,3865,True
+7,Level 3,Intermediate Algebra,2220,True
+8,Level 5,Intermediate Algebra,2177,False
+9,Level 5,Prealgebra,3753,False
+10,Level 5,Number Theory,3552,False
+11,Level 4,Algebra,935,True
+12,Level 5,Prealgebra,4236,True
+13,Level 5,Algebra,719,True
+14,Level 1,Counting & Probability,1325,True
+15,Level 4,Algebra,455,False
+16,Level 5,Prealgebra,3846,True
+17,Level 4,Intermediate Algebra,2518,False
+18,Level 4,Precalculus,4894,False
+19,Level 3,Intermediate Algebra,2915,True
+20,Level 5,Number Theory,3050,False
+21,Level 5,Precalculus,4746,True
+22,Level 4,Prealgebra,3992,True
+23,Level 3,Algebra,660,True
+24,Level 4,Intermediate Algebra,2678,False
+25,Level 5,Counting & Probability,1225,True
+26,Level 5,Number Theory,3105,True
+27,Level 5,Intermediate Algebra,2273,False
+28,Level 4,Prealgebra,4060,True
+29,Level 3,Algebra,330,True
+30,Level 4,Geometry,1695,True
+31,Level 3,Intermediate Algebra,2864,True
+32,Level 2,Intermediate Algebra,2703,False
+33,Level 5,Precalculus,4739,False
+34,Level 2,Algebra,381,True
+35,Level 4,Intermediate Algebra,2982,True
+36,Level 5,Precalculus,4996,True
+37,Level 4,Number Theory,3460,True
+38,Level 5,Counting & Probability,1495,True
+39,Level 3,Prealgebra,4173,False
+40,Level 2,Number Theory,3310,True
+41,Level 2,Prealgebra,4398,True
+42,Level 2,Number Theory,3367,True
+43,Level 5,Intermediate Algebra,2841,False
+44,Level 4,Intermediate Algebra,2973,True
+45,Level 5,Algebra,293,False
+46,Level 2,Algebra,387,True
+47,Level 1,Prealgebra,4206,True
+48,Level 4,Precalculus,4763,True
+49,Level 2,Number Theory,3207,True
+50,Level 5,Prealgebra,4301,True
+51,Level 2,Intermediate Algebra,2826,False
+52,Level 3,Geometry,2100,True
+53,Level 1,Algebra,1082,True
+54,Level 4,Counting & Probability,1463,False
+55,Level 5,Intermediate Algebra,2722,False
+56,Level 5,Precalculus,4917,False
+57,Level 4,Algebra,80,True
+58,Level 3,Number Theory,3455,False
+59,Level 5,Algebra,870,True
+60,Level 4,Prealgebra,4178,False
+61,Level 2,Precalculus,4832,False
+62,Level 2,Counting & Probability,1455,True
+63,Level 3,Prealgebra,4077,True
+64,Level 2,Precalculus,4556,True
+65,Level 3,Counting & Probability,1633,True
+66,Level 3,Prealgebra,3635,True
+67,Level 5,Prealgebra,3658,True
+68,Level 5,Counting & Probability,1422,True
+69,Level 4,Algebra,265,True
+70,Level 3,Algebra,585,True
+71,Level 4,Prealgebra,4131,True
+72,Level 3,Prealgebra,4310,True
+73,Level 5,Number Theory,3183,False
+74,Level 4,Intermediate Algebra,2486,True
+75,Level 5,Intermediate Algebra,2197,False
+76,Level 2,Algebra,1160,True
+77,Level 3,Number Theory,3202,True
+78,Level 2,Counting & Probability,1228,True
+79,Level 1,Precalculus,4744,False
+80,Level 3,Geometry,1720,False
+81,Level 2,Prealgebra,3809,True
+82,Level 2,Prealgebra,4001,True
+83,Level 2,Prealgebra,3915,True
+84,Level 5,Intermediate Algebra,2553,False
+85,Level 4,Intermediate Algebra,3039,True
+86,Level 5,Intermediate Algebra,2531,False
+87,Level 2,Algebra,1092,True
+88,Level 3,Counting & Probability,1624,True
+89,Level 2,Precalculus,4548,True
+90,Level 1,Precalculus,4520,True
+91,Level 5,Geometry,1834,True
+92,Level 4,Algebra,245,True
+93,Level 4,Intermediate Algebra,2247,True
+94,Level 4,Algebra,1138,True
+95,Level 1,Prealgebra,4361,True
+96,Level 2,Geometry,1839,False
+97,Level 2,Geometry,1847,True
+98,Level 4,Number Theory,3072,False
+99,Level 3,Geometry,2095,False

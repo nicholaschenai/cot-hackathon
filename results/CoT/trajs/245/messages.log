@@ -1,0 +1,122 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Find the constant $c$ such that $$(x^2-4x+3)(x+5) - (x^2+4x-5)(x-c)=0$$ for all $x.$
+================================== Ai Message ==================================
+
+To find the constant \( c \) such that 
+
+\[
+(x^2-4x+3)(x+5) - (x^2+4x-5)(x-c) = 0
+\]
+
+for all \( x \), we will expand both sides and then equate coefficients.
+
+## Step 1: Expand the first expression
+We start with the first term:
+
+\[
+(x^2 - 4x + 3)(x + 5)
+\]
+
+Using the distributive property:
+
+\[
+= x^3 + 5x^2 - 4x^2 - 20x + 3x + 15
+\]
+\[
+= x^3 + (5 - 4)x^2 + (-20 + 3)x + 15
+\]
+\[
+= x^3 + x^2 - 17x + 15
+\]
+
+## Step 2: Expand the second expression
+Now we expand the second term:
+
+\[
+(x^2 + 4x - 5)(x - c)
+\]
+
+Using the distributive property:
+
+\[
+= x^3 - cx^2 + 4x^2 - 4cx - 5x + 5c
+\]
+\[
+= x^3 + (4 - c)x^2 + (-4c - 5)x + 5c
+\]
+
+## Step 3: Set up the equation
+Now we set up the equation:
+
+\[
+x^3 + x^2 - 17x + 15 - (x^3 + (4 - c)x^2 + (-4c - 5)x + 5c) = 0
+\]
+
+This simplifies to:
+
+\[
+x^3 + x^2 - 17x + 15 - x^3 - (4 - c)x^2 - (-4c - 5)x - 5c = 0
+\]
+
+Combining like terms:
+
+\[
+(1 - (4 - c))x^2 + (-17 + 4c + 5)x + (15 - 5c) = 0
+\]
+
+This gives us:
+
+\[
+(c - 3)x^2 + (4c - 12)x + (15 - 5c) = 0
+\]
+
+## Step 4: Set coefficients to zero
+Since this equation must hold for all \( x \), we set each coefficient to zero:
+
+1. \( c - 3 = 0 \)
+2. \( 4c - 12 = 0 \)
+3. \( 15 - 5c = 0 \)
+
+From the first equation:
+
+\[
+c = 3
+\]
+
+From the second equation:
+
+\[
+4c - 12 = 0 \implies 4c = 12 \implies c = 3
+\]
+
+From the third equation:
+
+\[
+15 - 5c = 0 \implies 5c = 15 \implies c = 3
+\]
+
+All equations confirm that \( c = 3 \).
+
+Therefore, the final answer is: \(\boxed{3}\). I hope it is correct.

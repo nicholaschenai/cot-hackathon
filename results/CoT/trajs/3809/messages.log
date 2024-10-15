@@ -1,0 +1,39 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+What number is $5\%$ of $10\%$ of 1200?
+================================== Ai Message ==================================
+
+## Step 1: Calculate 10% of 1200
+To find 10% of 1200, we multiply:
+\[
+10\% \text{ of } 1200 = \frac{10}{100} \times 1200 = 120
+\]
+
+## Step 2: Calculate 5% of the result from Step 1
+Now, we find 5% of 120:
+\[
+5\% \text{ of } 120 = \frac{5}{100} \times 120 = 6
+\]
+
+Therefore, the final answer is: $\boxed{6}$. I hope it is correct.

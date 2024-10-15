@@ -1,0 +1,91 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Without using a calculator, compute $1002^2-502^2+298^2-202^2$.
+================================== Ai Message ==================================
+
+To solve the expression \(1002^2 - 502^2 + 298^2 - 202^2\), we can use the difference of squares formula, which states that \(a^2 - b^2 = (a-b)(a+b)\).
+
+## Step 1: Compute \(1002^2 - 502^2\)
+Let \(a = 1002\) and \(b = 502\).
+
+Using the difference of squares:
+\[
+1002^2 - 502^2 = (1002 - 502)(1002 + 502)
+\]
+Calculating the terms:
+\[
+1002 - 502 = 500
+\]
+\[
+1002 + 502 = 1504
+\]
+Thus,
+\[
+1002^2 - 502^2 = 500 \times 1504
+\]
+
+## Step 2: Compute \(298^2 - 202^2\)
+Let \(c = 298\) and \(d = 202\).
+
+Using the difference of squares:
+\[
+298^2 - 202^2 = (298 - 202)(298 + 202)
+\]
+Calculating the terms:
+\[
+298 - 202 = 96
+\]
+\[
+298 + 202 = 500
+\]
+Thus,
+\[
+298^2 - 202^2 = 96 \times 500
+\]
+
+## Step 3: Combine the results
+Now we combine the results from Step 1 and Step 2:
+\[
+1002^2 - 502^2 + 298^2 - 202^2 = (500 \times 1504) + (96 \times 500)
+\]
+Factoring out \(500\):
+\[
+= 500 \times (1504 + 96)
+\]
+Calculating the sum:
+\[
+1504 + 96 = 1600
+\]
+Thus,
+\[
+= 500 \times 1600
+\]
+
+## Step 4: Final calculation
+Calculating \(500 \times 1600\):
+\[
+500 \times 1600 = 800000
+\]
+
+Therefore, the final answer is: \(\boxed{800000}\). I hope it is correct.

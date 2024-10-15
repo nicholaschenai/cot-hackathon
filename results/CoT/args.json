@@ -1,0 +1,8 @@
+{
+    "option": "remote",
+    "strategy": "zero_shot",
+    "num_samples": 101,
+    "seed": 42,
+    "debug": true,
+    "batch_size": 1
+}

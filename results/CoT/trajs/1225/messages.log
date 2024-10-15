@@ -1,0 +1,55 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Three couples go to the movie theater. They want to seat people together for maximum enjoyment, but instead they randomly file into a row with six seats. What is the probability that they sit in a socially optimal configuration, in which each person is sitting next to his or her partner?
+================================== Ai Message ==================================
+
+To find the probability that three couples sit together in a socially optimal configuration, we can follow these steps:
+
+## Step 1: Calculate the total arrangements of the six people.
+The total number of ways to arrange 6 people in a row is given by the factorial of 6:
+\[
+6! = 720
+\]
+
+## Step 2: Calculate the arrangements where couples sit together.
+We can treat each couple as a single unit or block. Thus, we have 3 blocks (couples) to arrange. The number of ways to arrange these 3 blocks is:
+\[
+3! = 6
+\]
+Within each block, the two people can switch places, giving us \(2\) arrangements per couple. Therefore, for 3 couples, the arrangements are:
+\[
+2^3 = 8
+\]
+Thus, the total arrangements where couples sit together is:
+\[
+3! \times 2^3 = 6 \times 8 = 48
+\]
+
+## Step 3: Calculate the probability.
+The probability that the couples sit together is the number of favorable arrangements divided by the total arrangements:
+\[
+P(\text{couples together}) = \frac{48}{720} = \frac{1}{15}
+\]
+
+Therefore, the final answer is: $\boxed{\frac{1}{15}}$. I hope it is correct.

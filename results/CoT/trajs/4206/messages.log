@@ -1,0 +1,47 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Solve for $k$ in the equation $2k+5 = 13$.
+================================== Ai Message ==================================
+
+## Step 1: Isolate the term with \( k \)
+Subtract 5 from both sides of the equation:
+\[
+2k + 5 - 5 = 13 - 5
+\]
+This simplifies to:
+\[
+2k = 8
+\]
+
+## Step 2: Solve for \( k \)
+Divide both sides by 2:
+\[
+k = \frac{8}{2}
+\]
+This simplifies to:
+\[
+k = 4
+\]
+
+Therefore, the final answer is: $\boxed{4}$. I hope it is correct.

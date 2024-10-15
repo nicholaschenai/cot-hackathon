@@ -1,0 +1,73 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+$P$ is the midpoint of $\overline{BD}$. $AP = BP = 4$, $\overline{AP} \perp \overline{BD}$, $\overline{BD} \perp \overline{DC}$, $\overline{AB} \perp \overline{BC}$. In simple radical form, what is the perimeter of pentagon $ABCDP$? [asy]
+size(150); defaultpen(linewidth(0.8)); import geometry;
+pair A = origin, B = (4,4), C = (12,-4), D = (4,-4), P = (4,0);
+draw(A--P--B--cycle);
+draw(B--D--C--cycle);
+draw(rightanglemark(A,B,C,15));
+draw(rightanglemark(A,P,B,15));
+draw(rightanglemark(B,D,C,15));
+label("$A$",A,SW); label("$B$",B,N); label("$C$",C,SE); label("$D$",D,SW); label("$P$",P,E); label("$4$",A--P,S); label("$4$",B--P,E);
+
+[/asy]
+================================== Ai Message ==================================
+
+To find the perimeter of pentagon \(ABCDP\), we will calculate the lengths of each side \(AB\), \(BP\), \(PD\), \(DC\), and \(CA\).
+
+## Step 1: Calculate \(AB\)
+Given that \(AP = 4\) and \(BP = 4\), we can use the Pythagorean theorem to find \(AB\):
+\[
+AB = \sqrt{AP^2 + BP^2} = \sqrt{4^2 + 4^2} = \sqrt{16 + 16} = \sqrt{32} = 4\sqrt{2}.
+\]
+
+## Step 2: Calculate \(PD\)
+Since \(P\) is the midpoint of \(\overline{BD}\) and \(AP \perp BD\), we know that \(PD\) is equal to \(BP\):
+\[
+PD = BP = 4.
+\]
+
+## Step 3: Calculate \(DC\)
+Since \(BD \perp DC\) and \(D\) is directly below \(B\) (as \(P\) is the midpoint), we can find \(DC\) using the coordinates. The coordinates of \(B\) are \((4, 4)\) and \(D\) is directly below \(B\) at \((4, -4)\). The coordinates of \(C\) are \((12, -4)\). Thus, the length \(DC\) is:
+\[
+DC = |x_C - x_D| = |12 - 4| = 8.
+\]
+
+## Step 4: Calculate \(CA\)
+The coordinates of \(A\) are \((0, 0)\) and \(C\) are \((12, -4)\). Thus, the length \(CA\) is:
+\[
+CA = \sqrt{(12 - 0)^2 + (-4 - 0)^2} = \sqrt{12^2 + (-4)^2} = \sqrt{144 + 16} = \sqrt{160} = 4\sqrt{10}.
+\]
+
+## Step 5: Calculate the perimeter of pentagon \(ABCDP\)
+Now we can sum the lengths of all sides:
+\[
+\text{Perimeter} = AB + BP + PD + DC + CA = 4\sqrt{2} + 4 + 4 + 8 + 4\sqrt{10}.
+\]
+Combining the constants:
+\[
+\text{Perimeter} = 4\sqrt{2} + 4\sqrt{10} + 16.
+\]
+
+Therefore, the final answer is: \(\boxed{4\sqrt{2} + 4\sqrt{10} + 16}\). I hope it is correct.

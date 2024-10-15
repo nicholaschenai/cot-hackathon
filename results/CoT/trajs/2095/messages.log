@@ -1,0 +1,85 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+A decorative arrangement of floor tiles forms concentric circles, as shown in the figure to the right. The smallest circle has a radius of 2 feet, and each successive circle has a radius 2 feet longer. All the lines shown intersect at the center and form 12 congruent central angles. What is the area of the shaded region? Express your answer in terms of $\pi$. [asy]
+fill((2,0)--(4,0)..scale(4)*dir(15).. scale(4)*dir(30)--scale(2)*dir(30)..scale(2)*dir(15)..cycle,gray(.7));
+draw(Circle((0,0),2),linewidth(1));
+draw(Circle((0,0),4),linewidth(1));
+draw(Circle((0,0),6),linewidth(1));
+draw(Circle((0,0),8),linewidth(1));
+draw((0,0)--scale(8)*dir(30),linewidth(1));
+draw((0,0)--scale(8)*dir(60),linewidth(1));
+draw((0,0)--scale(8)*dir(90),linewidth(1));
+draw((0,0)--scale(8)*dir(120),linewidth(1));
+draw((0,0)--scale(8)*dir(150),linewidth(1));
+draw((0,0)--scale(8)*dir(180),linewidth(1));
+draw((0,0)--scale(8)*dir(210),linewidth(1));
+draw((0,0)--scale(8)*dir(240),linewidth(1));
+draw((0,0)--scale(8)*dir(270),linewidth(1));
+draw((0,0)--scale(8)*dir(300),linewidth(1));
+draw((0,0)--scale(8)*dir(330),linewidth(1));
+draw((0,0)--scale(8)*dir(0),linewidth(1));
+[/asy]
+================================== Ai Message ==================================
+
+To find the area of the shaded region between the concentric circles, we will calculate the area of the annular regions formed by the circles.
+
+## Step 1: Calculate the area of the largest circle
+The largest circle has a radius of 8 feet. The area \( A \) of a circle is given by the formula:
+\[
+A = \pi r^2
+\]
+For the largest circle:
+\[
+A_{\text{largest}} = \pi (8^2) = \pi \times 64 = 64\pi
+\]
+
+## Step 2: Calculate the area of the second largest circle
+The second largest circle has a radius of 6 feet. Using the same area formula:
+\[
+A_{\text{second largest}} = \pi (6^2) = \pi \times 36 = 36\pi
+\]
+
+## Step 3: Calculate the area of the third largest circle
+The third largest circle has a radius of 4 feet:
+\[
+A_{\text{third largest}} = \pi (4^2) = \pi \times 16 = 16\pi
+\]
+
+## Step 4: Calculate the area of the smallest circle
+The smallest circle has a radius of 2 feet:
+\[
+A_{\text{smallest}} = \pi (2^2) = \pi \times 4 = 4\pi
+\]
+
+## Step 5: Calculate the area of the shaded region
+The shaded region consists of the area between the largest circle and the second largest circle, and the area between the second largest circle and the third largest circle, and the area between the third largest circle and the smallest circle. Thus, we calculate:
+\[
+\text{Area of shaded region} = (A_{\text{largest}} - A_{\text{second largest}}) + (A_{\text{second largest}} - A_{\text{third largest}}) + (A_{\text{third largest}} - A_{\text{smallest}})
+\]
+This simplifies to:
+\[
+= A_{\text{largest}} - A_{\text{smallest}} = 64\pi - 4\pi = 60\pi
+\]
+
+Therefore, the final answer is: $\boxed{60\pi}$. I hope it is correct.

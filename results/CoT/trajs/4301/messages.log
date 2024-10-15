@@ -1,0 +1,76 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+The length of a rectangle is twice its width. Given the length of the diagonal is $5\sqrt{5}$, find the area of the rectangle.
+================================== Ai Message ==================================
+
+## Step 1: Define the dimensions
+Let the width of the rectangle be \( w \). Then, the length \( l \) is given by:
+\[
+l = 2w
+\]
+
+## Step 2: Use the Pythagorean theorem
+The diagonal \( d \) of the rectangle can be expressed using the Pythagorean theorem:
+\[
+d = \sqrt{l^2 + w^2}
+\]
+Substituting the values we have:
+\[
+5\sqrt{5} = \sqrt{(2w)^2 + w^2}
+\]
+This simplifies to:
+\[
+5\sqrt{5} = \sqrt{4w^2 + w^2} = \sqrt{5w^2}
+\]
+
+## Step 3: Solve for \( w \)
+Squaring both sides gives:
+\[
+(5\sqrt{5})^2 = 5w^2
+\]
+\[
+125 = 5w^2
+\]
+Dividing both sides by 5:
+\[
+w^2 = 25
+\]
+Taking the square root:
+\[
+w = 5
+\]
+
+## Step 4: Find the length
+Now, substituting back to find the length:
+\[
+l = 2w = 2 \times 5 = 10
+\]
+
+## Step 5: Calculate the area
+The area \( A \) of the rectangle is given by:
+\[
+A = l \times w = 10 \times 5 = 50
+\]
+
+Therefore, the final answer is: \(\boxed{50}\). I hope it is correct.

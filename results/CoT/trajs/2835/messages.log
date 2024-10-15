@@ -1,0 +1,71 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+The polynomial
+$$g(x) = x^3-14x^2+18x+72$$has one integer root. What is it?
+================================== Ai Message ==================================
+
+To find the integer root of the polynomial \( g(x) = x^3 - 14x^2 + 18x + 72 \), we can use the Rational Root Theorem, which suggests that any potential rational root is a factor of the constant term (72).
+
+The factors of 72 are: \( \pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 8, \pm 9, \pm 12, \pm 18, \pm 24, \pm 36, \pm 72 \).
+
+We will test these factors to find an integer root.
+
+Testing \( x = 2 \):
+\[
+g(2) = 2^3 - 14(2^2) + 18(2) + 72 = 8 - 56 + 36 + 72 = 60 \quad (\text{not a root})
+\]
+
+Testing \( x = 3 \):
+\[
+g(3) = 3^3 - 14(3^2) + 18(3) + 72 = 27 - 126 + 54 + 72 = 27 \quad (\text{not a root})
+\]
+
+Testing \( x = 4 \):
+\[
+g(4) = 4^3 - 14(4^2) + 18(4) + 72 = 64 - 224 + 72 + 72 = -16 \quad (\text{not a root})
+\]
+
+Testing \( x = 6 \):
+\[
+g(6) = 6^3 - 14(6^2) + 18(6) + 72 = 216 - 504 + 108 + 72 = -108 \quad (\text{not a root})
+\]
+
+Testing \( x = 8 \):
+\[
+g(8) = 8^3 - 14(8^2) + 18(8) + 72 = 512 - 896 + 144 + 72 = -168 \quad (\text{not a root})
+\]
+
+Testing \( x = 9 \):
+\[
+g(9) = 9^3 - 14(9^2) + 18(9) + 72 = 729 - 1134 + 162 + 72 = -171 \quad (\text{not a root})
+\]
+
+Testing \( x = 12 \):
+\[
+g(12) = 12^3 - 14(12^2) + 18(12) + 72 = 1728 - 2016 + 216 + 72 = 0 \quad (\text{is a root})
+\]
+
+Therefore, the integer root of the polynomial \( g(x) \) is \( 12 \).
+
+Therefore, the final answer is: \(\boxed{12}\). I hope it is correct.

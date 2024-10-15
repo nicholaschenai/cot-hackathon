@@ -1,0 +1,48 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Determine the number of ways to arrange the letters of the word CEASE.
+================================== Ai Message ==================================
+
+## Step 1: Count the total letters
+The word "CEASE" consists of 5 letters.
+
+## Step 2: Identify repeated letters
+The letter 'E' appears twice.
+
+## Step 3: Calculate arrangements
+The formula for arrangements of letters with repetitions is given by:
+
+\[
+\text{Arrangements} = \frac{n!}{p_1! \times p_2! \times \ldots}
+\]
+
+where \( n \) is the total number of letters, and \( p_1, p_2, \ldots \) are the frequencies of the repeated letters.
+
+Here, \( n = 5 \) and the frequency of 'E' is 2. Thus, we have:
+
+\[
+\text{Arrangements} = \frac{5!}{2!} = \frac{120}{2} = 60
+\]
+
+Therefore, the final answer is: $\boxed{60}$. I hope it is correct.

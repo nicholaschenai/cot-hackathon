@@ -1,0 +1,56 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+For real numbers $t$ where $\tan t$ and $\sec t$ are defined, the point
+\[(x,y) = (\tan t, \sec t)\]is plotted.  All the plotted points lie on what kind of curve?
+
+(A) Line
+(B) Circle
+(C) Parabola
+(D) Ellipse
+(E) Hyperbola
+
+Enter the letter of the correct option.
+================================== Ai Message ==================================
+
+To find the relationship between \( x \) and \( y \) given \( x = \tan t \) and \( y = \sec t \), we can use the identity involving tangent and secant.
+
+## Step 1: Use the Pythagorean identity
+Recall the identity:
+\[
+\sec^2 t = 1 + \tan^2 t
+\]
+Substituting \( x \) and \( y \):
+\[
+y^2 = 1 + x^2
+\]
+
+## Step 2: Rearrange the equation
+Rearranging gives:
+\[
+y^2 - x^2 = 1
+\]
+
+This is the standard form of a hyperbola.
+
+Therefore, the final answer is: $\boxed{E}$. I hope it is correct.

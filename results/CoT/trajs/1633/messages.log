@@ -1,0 +1,45 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+How many multiples of $9^3$ are greater than $9^4$ and less than $9^5$?
+================================== Ai Message ==================================
+
+## Step 1: Identify the range
+We need to find multiples of \(9^3\) that are greater than \(9^4\) and less than \(9^5\). 
+
+## Step 2: Express the multiples
+The multiples of \(9^3\) can be expressed as \(k \cdot 9^3\) where \(k\) is a positive integer. We need to find \(k\) such that:
+\[
+9^4 < k \cdot 9^3 < 9^5
+\]
+
+## Step 3: Simplify the inequalities
+Dividing the entire inequality by \(9^3\):
+\[
+9 < k < 9
+\]
+
+## Step 4: Determine the integer values of \(k\)
+The inequality \(9 < k < 9\) has no integer solutions since \(k\) cannot be both greater than and less than \(9\).
+
+Therefore, the final answer is: \(\boxed{0}\). I hope it is correct.

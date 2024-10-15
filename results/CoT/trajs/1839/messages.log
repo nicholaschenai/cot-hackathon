@@ -1,0 +1,68 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+In $\triangle{XYZ}$, $\angle{Z}=90^{\circ}$, $\cos{Y}=\frac{7}{25}$, and $XY=25$.  What is $\tan{X}$?
+================================== Ai Message ==================================
+
+## Step 1: Find the lengths of the sides
+In triangle \( XYZ \), since \( \angle Z = 90^\circ \), we can use the cosine definition. We know that:
+
+\[
+\cos Y = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{XZ}{XY}
+\]
+
+Given \( \cos Y = \frac{7}{25} \) and \( XY = 25 \):
+
+\[
+XZ = 25 \cdot \frac{7}{25} = 7
+\]
+
+Now, we can find \( YZ \) using the Pythagorean theorem:
+
+\[
+XY^2 = XZ^2 + YZ^2
+\]
+
+Substituting the known values:
+
+\[
+25^2 = 7^2 + YZ^2
+\]
+\[
+625 = 49 + YZ^2
+\]
+\[
+YZ^2 = 625 - 49 = 576
+\]
+\[
+YZ = \sqrt{576} = 24
+\]
+
+## Step 2: Find \( \tan X \)
+Now, we can find \( \tan X \):
+
+\[
+\tan X = \frac{\text{opposite}}{\text{adjacent}} = \frac{YZ}{XZ} = \frac{24}{7}
+\]
+
+Therefore, the final answer is: \(\boxed{\frac{24}{7}}\). I hope it is correct.

@@ -1,0 +1,14 @@
+i,level,problem_type,index,is_correct,total_count,total_correct
+11,Level 4,Algebra,935,True,6,5
+14,Level 1,Counting & Probability,1325,True,1,1
+19,Level 3,Intermediate Algebra,2915,True,3,3
+30,Level 4,Geometry,1695,True,1,1
+36,Level 5,Precalculus,4996,True,4,2
+44,Level 4,Intermediate Algebra,2973,True,7,5
+65,Level 3,Counting & Probability,1633,True,2,2
+68,Level 5,Counting & Probability,1422,True,3,3
+70,Level 3,Algebra,585,True,4,4
+72,Level 3,Prealgebra,4310,True,5,4
+74,Level 4,Intermediate Algebra,2486,True,7,5
+85,Level 4,Intermediate Algebra,3039,True,7,5
+91,Level 5,Geometry,1834,True,1,1

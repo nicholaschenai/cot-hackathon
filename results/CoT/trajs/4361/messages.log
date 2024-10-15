@@ -1,0 +1,41 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Tamantha wants to buy boxes in which to put her 77 compact discs. If each box holds 12 discs, how many does she need to buy?
+================================== Ai Message ==================================
+
+## Step 1: Calculate the number of boxes needed
+To find out how many boxes Tamantha needs, divide the total number of discs by the capacity of each box.
+
+\[
+\text{Number of boxes} = \frac{77}{12} \approx 6.4167
+\]
+
+## Step 2: Round up to the nearest whole number
+Since Tamantha cannot buy a fraction of a box, round up to the next whole number.
+
+\[
+\text{Boxes needed} = 7
+\]
+
+Therefore, the final answer is: $\boxed{7}$. I hope it is correct.

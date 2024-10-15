@@ -1,0 +1,79 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Compute
+\[\frac{\sin 13^\circ + \sin 47^\circ + \sin 73^\circ + \sin 107^\circ}{\cos 17^\circ}.\]
+================================== Ai Message ==================================
+
+To compute 
+
+\[
+\frac{\sin 13^\circ + \sin 47^\circ + \sin 73^\circ + \sin 107^\circ}{\cos 17^\circ},
+\]
+
+we will first simplify the numerator.
+
+## Step 1: Simplify the sine terms
+Using the identity \(\sin(90^\circ - x) = \cos x\), we can rewrite some of the sine terms:
+
+- \(\sin 73^\circ = \cos 17^\circ\) (since \(73^\circ = 90^\circ - 17^\circ\))
+- \(\sin 107^\circ = \sin(90^\circ + 17^\circ) = \cos 17^\circ\)
+
+Thus, we can rewrite the numerator:
+
+\[
+\sin 13^\circ + \sin 47^\circ + \sin 73^\circ + \sin 107^\circ = \sin 13^\circ + \sin 47^\circ + \cos 17^\circ + \cos 17^\circ = \sin 13^\circ + \sin 47^\circ + 2\cos 17^\circ.
+\]
+
+## Step 2: Combine sine terms
+Next, we can use the sine addition formula to combine \(\sin 13^\circ\) and \(\sin 47^\circ\):
+
+Using the identity \(\sin a + \sin b = 2 \sin\left(\frac{a+b}{2}\right) \cos\left(\frac{a-b}{2}\right)\):
+
+Let \(a = 13^\circ\) and \(b = 47^\circ\):
+
+\[
+\sin 13^\circ + \sin 47^\circ = 2 \sin\left(\frac{13^\circ + 47^\circ}{2}\right) \cos\left(\frac{13^\circ - 47^\circ}{2}\right) = 2 \sin(30^\circ) \cos(-17^\circ).
+\]
+
+Since \(\sin(30^\circ) = \frac{1}{2}\) and \(\cos(-17^\circ) = \cos(17^\circ)\):
+
+\[
+\sin 13^\circ + \sin 47^\circ = 2 \cdot \frac{1}{2} \cdot \cos(17^\circ) = \cos(17^\circ).
+\]
+
+## Step 3: Substitute back into the expression
+Now substituting back into the expression for the numerator:
+
+\[
+\sin 13^\circ + \sin 47^\circ + 2\cos 17^\circ = \cos 17^\circ + 2\cos 17^\circ = 3\cos 17^\circ.
+\]
+
+## Step 4: Final calculation
+Now we substitute this back into the original expression:
+
+\[
+\frac{3\cos 17^\circ}{\cos 17^\circ} = 3.
+\]
+
+Therefore, the final answer is: \(\boxed{3}\). I hope it is correct.

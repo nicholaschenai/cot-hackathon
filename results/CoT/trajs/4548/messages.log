@@ -1,0 +1,63 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Compute
+\[\begin{pmatrix} 3 & 1 & 0 \\ -7 & 4 & 2 \\ 0 & 5 & -1 \end{pmatrix} \begin{pmatrix} 4 \\ -1 \\ -2 \end{pmatrix}.\]
+================================== Ai Message ==================================
+
+To compute the matrix multiplication 
+
+\[
+\begin{pmatrix} 3 & 1 & 0 \\ -7 & 4 & 2 \\ 0 & 5 & -1 \end{pmatrix} \begin{pmatrix} 4 \\ -1 \\ -2 \end{pmatrix},
+\]
+
+we will perform the multiplication step by step.
+
+## Step 1: Compute the first row
+Multiply the first row of the matrix by the column vector:
+
+\[
+3 \cdot 4 + 1 \cdot (-1) + 0 \cdot (-2) = 12 - 1 + 0 = 11.
+\]
+
+## Step 2: Compute the second row
+Multiply the second row of the matrix by the column vector:
+
+\[
+-7 \cdot 4 + 4 \cdot (-1) + 2 \cdot (-2) = -28 - 4 - 4 = -36.
+\]
+
+## Step 3: Compute the third row
+Multiply the third row of the matrix by the column vector:
+
+\[
+0 \cdot 4 + 5 \cdot (-1) + (-1) \cdot (-2) = 0 - 5 + 2 = -3.
+\]
+
+Combining all the results, we get:
+
+\[
+\begin{pmatrix} 11 \\ -36 \\ -3 \end{pmatrix}.
+\]
+
+Therefore, the final answer is: \(\boxed{\begin{pmatrix} 11 \\ -36 \\ -3 \end{pmatrix}}\). I hope it is correct.

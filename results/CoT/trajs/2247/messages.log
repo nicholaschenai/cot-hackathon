@@ -1,0 +1,39 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+If $|z| = 1$, express $\overline{z}$ as a simplified fraction in terms of $z$.
+================================== Ai Message ==================================
+
+## Step 1: Use the property of complex conjugates
+For any complex number \( z \) expressed in polar form as \( z = e^{i\theta} \) (since \( |z| = 1 \)), the complex conjugate is given by:
+\[
+\overline{z} = e^{-i\theta}
+\]
+
+## Step 2: Relate \( \overline{z} \) to \( z \)
+Since \( z = e^{i\theta} \), we can express \( e^{-i\theta} \) in terms of \( z \):
+\[
+\overline{z} = \frac{1}{z}
+\]
+
+Therefore, the final answer is: \(\boxed{\frac{1}{z}}\). I hope it is correct.

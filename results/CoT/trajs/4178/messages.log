@@ -1,0 +1,73 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+In the diagram, what is the perimeter of $\triangle PQS$? [asy]
+size(5cm);
+import olympiad;
+
+// Lines
+pair q = (0, 0); pair r = (0, -5); pair p = (12, 0); pair s = (0, -20);
+draw(q--p--s--cycle); draw(r--p);
+
+// Labels
+label("$Q$", q, NW); label("$P$", p, NE); label("$R$", r, W); label("$S$", s, W);
+label("$5$", r / 2, W); label("$13$", r + (p - r) / 2, 1.2 * S); label("$37$", s + (p - s) / 2, SE);
+
+markscalefactor = 0.1;
+draw(rightanglemark(s, q, p));
+[/asy]
+================================== Ai Message ==================================
+
+To find the perimeter of triangle \( \triangle PQS \), we need to determine the lengths of sides \( PQ \), \( QS \), and \( PS \).
+
+## Step 1: Calculate \( PQ \)
+From the diagram, we see that \( PQ \) is the horizontal leg of the right triangle \( PQR \). The length of \( PQ \) is given as \( 13 \).
+
+## Step 2: Calculate \( QS \)
+The length \( QS \) is the vertical leg of the right triangle \( QRS \). The length of \( QS \) is given as \( 20 \) (since \( QS = QR + RS = 5 + 15 \)).
+
+## Step 3: Calculate \( PS \)
+To find \( PS \), we can use the Pythagorean theorem in triangle \( PQS \):
+\[
+PS^2 = PQ^2 + QS^2
+\]
+Substituting the known values:
+\[
+PS^2 = 13^2 + 20^2 = 169 + 400 = 569
+\]
+Thus,
+\[
+PS = \sqrt{569}
+\]
+
+## Step 4: Calculate the perimeter
+The perimeter \( P \) of triangle \( PQS \) is given by:
+\[
+P = PQ + QS + PS = 13 + 20 + \sqrt{569}
+\]
+Calculating the numerical value:
+\[
+P = 33 + \sqrt{569}
+\]
+
+Therefore, the final answer is: \(\boxed{33 + \sqrt{569}}\). I hope it is correct.

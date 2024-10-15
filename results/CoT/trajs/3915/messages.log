@@ -1,0 +1,53 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+What is the value of $x$ in the equation $3x + 2 + 3(1+x) = 23$?
+================================== Ai Message ==================================
+
+## Step 1: Simplify the equation
+Start with the equation:
+\[
+3x + 2 + 3(1+x) = 23
+\]
+Distribute the \(3\) in \(3(1+x)\):
+\[
+3x + 2 + 3 + 3x = 23
+\]
+
+## Step 2: Combine like terms
+Combine the \(3x\) terms and the constants:
+\[
+6x + 5 = 23
+\]
+
+## Step 3: Solve for \(x\)
+Subtract \(5\) from both sides:
+\[
+6x = 18
+\]
+Now, divide by \(6\):
+\[
+x = 3
+\]
+
+Therefore, the final answer is: \(\boxed{3}\). I hope it is correct.

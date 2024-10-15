@@ -1,0 +1,127 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+In rectangle $ABCD$, we have $AB=8$, $BC=9$, $H$ is on $\overline{BC}$ with $BH=6$, $E$ is on $AD$ with $DE=4$, line $EC$ intersects line $AH$ at $G$, and $F$ is on line $AD$ with $\overline{GF}\perp \overline{AF}$. Find the length $\overline{GF}$.
+
+[asy]
+pair A,B,C,D,I,F,G,H;
+F=(0,0);
+D=(6,0);
+I=(10,0);
+A=(15,0);
+B=(15,8);
+H=(9,8);
+C=(6,8);
+G=(0,20);
+draw(A--B--C--D--cycle,linewidth(0.7));
+draw(A--F--G--cycle,linewidth(0.7));
+draw(G--I,linewidth(0.7));
+label("4",(8,0),S);
+label("8",(15,4),E);
+label("6",(12,8),N);
+label("$A$",A,SE);
+label("$B$",B,NE);
+label("$C$",C,W);
+label("$D$",D,S);
+label("$E$",I,S);
+label("$F$",F,W);
+label("$G$",G,W);
+label("$H$",H,NE);
+[/asy]
+================================== Ai Message ==================================
+
+To solve the problem, we will first establish the coordinates of the points in rectangle \(ABCD\) and then find the intersection point \(G\) and the length of \(GF\).
+
+## Step 1: Establish coordinates
+Let:
+- \(A = (0, 0)\)
+- \(B = (8, 0)\)
+- \(C = (8, 9)\)
+- \(D = (0, 9)\)
+
+Point \(H\) is on \(\overline{BC}\) such that \(BH = 6\). Therefore, the coordinates of \(H\) are:
+\[
+H = (8, 6)
+\]
+
+Point \(E\) is on \(\overline{AD}\) such that \(DE = 4\). Therefore, the coordinates of \(E\) are:
+\[
+E = (0, 5)
+\]
+
+## Step 2: Find the equations of lines \(EC\) and \(AH\)
+The slope of line \(EC\) (from \(E\) to \(C\)) is calculated as follows:
+\[
+\text{slope of } EC = \frac{9 - 5}{8 - 0} = \frac{4}{8} = \frac{1}{2}
+\]
+Using point-slope form, the equation of line \(EC\) is:
+\[
+y - 5 = \frac{1}{2}(x - 0) \implies y = \frac{1}{2}x + 5
+\]
+
+The slope of line \(AH\) (from \(A\) to \(H\)) is:
+\[
+\text{slope of } AH = \frac{6 - 0}{8 - 0} = \frac{6}{8} = \frac{3}{4}
+\]
+Using point-slope form, the equation of line \(AH\) is:
+\[
+y - 0 = \frac{3}{4}(x - 0) \implies y = \frac{3}{4}x
+\]
+
+## Step 3: Find the intersection point \(G\)
+To find point \(G\), we set the equations of lines \(EC\) and \(AH\) equal to each other:
+\[
+\frac{1}{2}x + 5 = \frac{3}{4}x
+\]
+Multiplying through by 4 to eliminate the fractions:
+\[
+2x + 20 = 3x \implies 20 = x \implies x = 20
+\]
+Substituting \(x = 20\) back into the equation of line \(AH\) to find \(y\):
+\[
+y = \frac{3}{4}(20) = 15
+\]
+Thus, the coordinates of point \(G\) are:
+\[
+G = (20, 15)
+\]
+
+## Step 4: Find the coordinates of point \(F\)
+Point \(F\) lies on line \(AD\) (which is vertical at \(x = 0\)). Since \(\overline{GF} \perp \overline{AF}\), the slope of line \(GF\) must be the negative reciprocal of the slope of line \(AF\).
+
+The slope of line \(AF\) (from \(A\) to \(F\)) is:
+\[
+\text{slope of } AF = \frac{y_F - 0}{0 - 0} \text{ (undefined, vertical)}
+\]
+Thus, line \(GF\) is horizontal, meaning \(y_F = 15\). Therefore, the coordinates of point \(F\) are:
+\[
+F = (0, 15)
+\]
+
+## Step 5: Calculate the length \(\overline{GF}\)
+The length of \(\overline{GF}\) is the vertical distance between points \(G\) and \(F\):
+\[
+GF = |y_G - y_F| = |15 - 15| = 0
+\]
+
+Therefore, the final answer is: \(\boxed{0}\). I hope it is correct.

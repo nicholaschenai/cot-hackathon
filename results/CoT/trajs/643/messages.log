@@ -1,0 +1,61 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Adina and Lynn are going rock-climbing and need to rent special shoes. Lynn is normally size 9 and knows that her rock-climbing shoe-size is 42. If Adina is normally size 6, what size rock-climbing shoes should she rent assuming shoe size is directly proportional to rock-climbing shoe size?
+================================== Ai Message ==================================
+
+## Step 1: Establish the relationship
+Since shoe size is directly proportional to rock-climbing shoe size, we can set up a ratio based on Lynn's sizes:
+\[
+\frac{\text{Lynn's normal size}}{\text{Lynn's climbing size}} = \frac{9}{42}
+\]
+
+## Step 2: Set up the proportion for Adina
+Let \( x \) be Adina's rock-climbing shoe size. We can set up the proportion:
+\[
+\frac{\text{Adina's normal size}}{\text{Adina's climbing size}} = \frac{6}{x}
+\]
+Setting the two ratios equal gives us:
+\[
+\frac{9}{42} = \frac{6}{x}
+\]
+
+## Step 3: Solve for \( x \)
+Cross-multiply to solve for \( x \):
+\[
+9x = 6 \times 42
+\]
+Calculating the right side:
+\[
+6 \times 42 = 252
+\]
+So,
+\[
+9x = 252
+\]
+Now, divide both sides by 9:
+\[
+x = \frac{252}{9} = 28
+\]
+
+Therefore, the final answer is: $\boxed{28}$. I hope it is correct.

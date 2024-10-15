@@ -1,0 +1,59 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+A cubic block of wood with side lengths of 10 cm is cut into smaller cubes with side lengths of 1 cm. What is the ratio of the surface area of the larger block of wood to the combined surface area of the smaller blocks of wood? Express your answer as a common fraction.
+================================== Ai Message ==================================
+
+## Step 1: Calculate the surface area of the larger block
+The surface area \( A \) of a cube is given by the formula:
+\[
+A = 6s^2
+\]
+For the larger block with side length \( s = 10 \) cm:
+\[
+A = 6(10^2) = 6 \times 100 = 600 \text{ cm}^2
+\]
+
+## Step 2: Calculate the number of smaller cubes
+The larger block is cut into smaller cubes with side length \( 1 \) cm. The number of smaller cubes is:
+\[
+\text{Number of cubes} = \left(\frac{10}{1}\right)^3 = 10^3 = 1000
+\]
+
+## Step 3: Calculate the surface area of the smaller cubes
+The surface area of one smaller cube is:
+\[
+A_{\text{small}} = 6(1^2) = 6 \text{ cm}^2
+\]
+Thus, the combined surface area of all smaller cubes is:
+\[
+\text{Total surface area} = 1000 \times 6 = 6000 \text{ cm}^2
+\]
+
+## Step 4: Calculate the ratio of the surface areas
+The ratio of the surface area of the larger block to the combined surface area of the smaller blocks is:
+\[
+\text{Ratio} = \frac{600}{6000} = \frac{1}{10}
+\]
+
+Therefore, the final answer is: $\boxed{\frac{1}{10}}$. I hope it is correct.

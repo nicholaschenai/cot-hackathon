@@ -1,0 +1,61 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+A nursery employee wishes to plant 2 identical Golden Delicious apple trees and 5 identical Bartlett pear trees in one row. How many distinct arrangements are possible?
+================================== Ai Message ==================================
+
+To find the number of distinct arrangements of 2 identical Golden Delicious apple trees and 5 identical Bartlett pear trees, we can use the formula for permutations of multiset:
+
+\[
+\text{Number of arrangements} = \frac{n!}{n_1! \cdot n_2!}
+\]
+
+where \( n \) is the total number of items, \( n_1 \) is the number of identical items of the first type, and \( n_2 \) is the number of identical items of the second type.
+
+## Step 1: Identify the total number of trees
+The total number of trees is:
+\[
+n = 2 + 5 = 7
+\]
+
+## Step 2: Apply the formula
+We have:
+- \( n_1 = 2 \) (Golden Delicious apple trees)
+- \( n_2 = 5 \) (Bartlett pear trees)
+
+Using the formula:
+\[
+\text{Number of arrangements} = \frac{7!}{2! \cdot 5!}
+\]
+
+Calculating the factorials:
+\[
+7! = 5040, \quad 2! = 2, \quad 5! = 120
+\]
+
+Now substituting these values into the formula:
+\[
+\text{Number of arrangements} = \frac{5040}{2 \cdot 120} = \frac{5040}{240} = 21
+\]
+
+Therefore, the final answer is: $\boxed{21}$. I hope it is correct.

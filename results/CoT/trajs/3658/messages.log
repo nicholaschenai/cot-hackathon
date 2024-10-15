@@ -1,0 +1,69 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Tom got a Mr. Potato Head for his birthday. It came with 3 hairstyles, 2 sets of eyebrows, 1 pair of googly eyes, 2 sets of ears, and 2 sets of lips, a pair of regular shoes, and a bonus pair of clown shoes. If a complete Mr. Potato Head personality includes eyebrows, eyes, ears, lips, shoes and optionally hair, how many different wacky personalities can Tom come up with? Note that Mr. Potato Head can be bald.
+
+Note: You cannot "mix and match".  For example, you cannot take the left eyebrow from one pair and the right eyebrow from the other pair.
+================================== Ai Message ==================================
+
+To find the total number of different wacky personalities Tom can create with Mr. Potato Head, we will consider each component and how they can be combined.
+
+## Step 1: Count the options for each component
+- **Hairstyles**: 3 options (including bald)
+- **Eyebrows**: 2 options
+- **Eyes**: 1 option
+- **Ears**: 2 options
+- **Lips**: 2 options
+- **Shoes**: 2 options (regular and clown)
+
+## Step 2: Calculate the total combinations
+Since Mr. Potato Head can be bald, we need to account for the hairstyles separately. The total combinations can be calculated as follows:
+
+1. **With Hair**: 
+   - Hairstyles: 3
+   - Eyebrows: 2
+   - Eyes: 1
+   - Ears: 2
+   - Lips: 2
+   - Shoes: 2
+
+   Total combinations with hair = \(3 \times 2 \times 1 \times 2 \times 2 \times 2 = 48\)
+
+2. **Without Hair** (bald):
+   - Hairstyles: 1 (bald)
+   - Eyebrows: 2
+   - Eyes: 1
+   - Ears: 2
+   - Lips: 2
+   - Shoes: 2
+
+   Total combinations without hair = \(1 \times 2 \times 1 \times 2 \times 2 \times 2 = 16\)
+
+## Step 3: Add the combinations
+Now, we add the combinations with and without hair:
+
+\[
+48 + 16 = 64
+\]
+
+Therefore, the final answer is: $\boxed{64}$. I hope it is correct.

@@ -1,0 +1,195 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Find all real values of $x$ such that $$\frac{2x^2-3x}{x^2-x} + 5x -11 = \frac{3x^2+5x+2}{x^2-1}.$$Enter all the solutions, separated by commas.
+================================== Ai Message ==================================
+
+To solve the equation 
+
+\[
+\frac{2x^2-3x}{x^2-x} + 5x - 11 = \frac{3x^2+5x+2}{x^2-1},
+\]
+
+we will first simplify both sides.
+
+## Step 1: Simplify the left side
+The left side is 
+
+\[
+\frac{2x^2-3x}{x^2-x} + 5x - 11.
+\]
+
+We can factor the denominator:
+
+\[
+x^2 - x = x(x-1).
+\]
+
+Thus, the left side becomes:
+
+\[
+\frac{2x^2 - 3x}{x(x-1)} + 5x - 11.
+\]
+
+To combine the terms, we need a common denominator, which is \(x(x-1)\):
+
+\[
+\frac{2x^2 - 3x + (5x - 11)x(x-1)}{x(x-1)}.
+\]
+
+Now, we expand \( (5x - 11)x(x-1) \):
+
+\[
+(5x - 11)(x^2 - x) = 5x^3 - 5x^2 - 11x^2 + 11x = 5x^3 - 16x^2 + 11x.
+\]
+
+So, the left side becomes:
+
+\[
+\frac{2x^2 - 3x + 5x^3 - 16x^2 + 11x}{x(x-1)} = \frac{5x^3 - 14x^2 + 8x}{x(x-1)}.
+\]
+
+## Step 2: Simplify the right side
+The right side is 
+
+\[
+\frac{3x^2 + 5x + 2}{x^2 - 1}.
+\]
+
+We can factor the denominator:
+
+\[
+x^2 - 1 = (x-1)(x+1).
+\]
+
+Thus, the right side becomes:
+
+\[
+\frac{3x^2 + 5x + 2}{(x-1)(x+1)}.
+\]
+
+## Step 3: Set the two sides equal
+Now we have:
+
+\[
+\frac{5x^3 - 14x^2 + 8x}{x(x-1)} = \frac{3x^2 + 5x + 2}{(x-1)(x+1)}.
+\]
+
+Cross-multiplying gives:
+
+\[
+(5x^3 - 14x^2 + 8x)(x + 1) = (3x^2 + 5x + 2)x.
+\]
+
+Expanding both sides:
+
+Left side:
+
+\[
+5x^4 + 5x^3 - 14x^3 - 14x^2 + 8x^2 + 8x = 5x^4 - 9x^3 - 6x^2 + 8x.
+\]
+
+Right side:
+
+\[
+3x^3 + 5x^2 + 2x.
+\]
+
+Setting both sides equal:
+
+\[
+5x^4 - 9x^3 - 6x^2 + 8x = 3x^3 + 5x^2 + 2x.
+\]
+
+## Step 4: Rearranging the equation
+Rearranging gives:
+
+\[
+5x^4 - 12x^3 - 11x^2 + 6x = 0.
+\]
+
+Factoring out \(x\):
+
+\[
+x(5x^3 - 12x^2 - 11x + 6) = 0.
+\]
+
+Thus, one solution is \(x = 0\).
+
+## Step 5: Solve the cubic equation
+Now we need to solve:
+
+\[
+5x^3 - 12x^2 - 11x + 6 = 0.
+\]
+
+Using the Rational Root Theorem, we test possible rational roots. Testing \(x = 2\):
+
+\[
+5(2)^3 - 12(2)^2 - 11(2) + 6 = 40 - 48 - 22 + 6 = -24 \quad \text{(not a root)}.
+\]
+
+Testing \(x = 1\):
+
+\[
+5(1)^3 - 12(1)^2 - 11(1) + 6 = 5 - 12 - 11 + 6 = -12 \quad \text{(not a root)}.
+\]
+
+Testing \(x = -1\):
+
+\[
+5(-1)^3 - 12(-1)^2 - 11(-1) + 6 = -5 - 12 + 11 + 6 = 0 \quad \text{(is a root)}.
+\]
+
+Now we can factor \(5x^3 - 12x^2 - 11x + 6\) by \(x + 1\):
+
+Using synthetic division, we find:
+
+\[
+5x^3 - 12x^2 - 11x + 6 = (x + 1)(5x^2 - 17x + 6).
+\]
+
+Now we solve \(5x^2 - 17x + 6 = 0\) using the quadratic formula:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{17 \pm \sqrt{(-17)^2 - 4 \cdot 5 \cdot 6}}{2 \cdot 5} = \frac{17 \pm \sqrt{289 - 120}}{10} = \frac{17 \pm \sqrt{169}}{10} = \frac{17 \pm 13}{10}.
+\]
+
+This gives:
+
+\[
+x = \frac{30}{10} = 3 \quad \text{and} \quad x = \frac{4}{10} = \frac{2}{5}.
+\]
+
+## Final Step: Collect all solutions
+The solutions are:
+
+\[
+x = 0, \quad x = -1, \quad x = 3, \quad x = \frac{2}{5}.
+\]
+
+Therefore, the final answer is: 
+
+\[
+\boxed{0, -1, 3, \frac{2}{5}}. I hope it is correct.
+\]

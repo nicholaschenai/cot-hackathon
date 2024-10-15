@@ -1,0 +1,61 @@
+
+Solve the following math problem efficiently and clearly:
+
+- For simple problems (2 steps or fewer):
+  Provide a concise solution with minimal explanation.
+
+- For complex problems (3 steps or more):
+  Use this step-by-step format:
+
+  ## Step 1: [Concise description]
+  [Brief explanation and calculations]
+
+  ## Step 2: [Concise description]
+  [Brief explanation and calculations]
+
+  ...
+
+Regardless of the approach, always conclude with:
+
+Therefore, the final answer is: $\boxed{answer}$. I hope it is correct.
+
+Where [answer] is just the final number or expression that solves the problem.
+
+Two consecutive positive even numbers are each squared.  The  difference of the squares is 60.  What is the sum of the original  two numbers?
+================================== Ai Message ==================================
+
+Let the two consecutive positive even numbers be \( x \) and \( x + 2 \).
+
+## Step 1: Set up the equation
+The difference of their squares can be expressed as:
+\[
+(x + 2)^2 - x^2 = 60
+\]
+
+## Step 2: Expand and simplify
+Expanding the left side:
+\[
+(x^2 + 4x + 4) - x^2 = 60
+\]
+This simplifies to:
+\[
+4x + 4 = 60
+\]
+
+## Step 3: Solve for \( x \)
+Subtract 4 from both sides:
+\[
+4x = 56
+\]
+Now, divide by 4:
+\[
+x = 14
+\]
+
+## Step 4: Find the two numbers and their sum
+The two consecutive even numbers are \( 14 \) and \( 16 \). Their sum is:
+\[
+14 + 16 = 30
+\]
+
+Therefore, the final answer is: \(\boxed{30}\). I hope it is correct.
